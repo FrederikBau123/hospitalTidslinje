@@ -1,13 +1,248 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+
+.nomargin{
+  margin:0 !important;
+}
+.marginleft{
+  margin-left: 1.8em;
+}
+.margintop{
+  margin-top:  1em !important;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.nomargintop{
+  margin-top:0 !important;
+}
+.marginbottom{
+  margin-bottom:2em;
+}
+#marginformbottom{
+  padding-bottom:1em;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+::-webkit-scrollbar-button {
+  display: none;
+}
+
+input, select, textarea, button{
+    -ms-box-sizing:border-box !important;
+    box-sizing:border-box !important;
+    -webkit-box-sizing: border-box !important;
+       -moz-box-sizing: border-box !important;
+            box-sizing: border-box !important;
+}
+
+.flex{
+  display:flex;
+}
+.inline{
+  display: inline;
+}
+
+.login{
+width:10em;
+margin-top: 16px;
+padding:8px;
+background-color: #3F9CE2;
+border-radius: 0.8em;
+border:none;
+color:#FFFFFF;
+font-size: 1.6em;
+}
+
+.middle{
+  margin: 0 auto;
+}
+
+.edit{
+border-radius: 8px;
+border: 2px solid rgba(0, 82, 226,0.2);
+color:rgb(0,82,226);
+height: 36px;
+width: 58px;
+background-color: white;
+position:absolute;
+right:3%;
+}
+
+.Form{
+background-color: #FFFFFF;
+margin-top:8px;
+}
+
+.padding-bottom{
+  padding-bottom: 1em;
+}
+
+.formElements{
+}
+.error span{
+  font-family: OpenSans-Regular;
+
+  color:red;
+}
+.formElements.error input,
+.formElements.error textarea,
+.formElements.error select {
+  border: 1px solid red;
+}
+.formLabels{
+  font-family: OpenSans-Regular;
+  font-size:14px;
+  color:#000000;
+}
+.formComplete{
+  margin-top:1em;
+  margin-left: 4%;
+}
+.formCompleteContainer{
+  width:100%;
+  margin-top:8px;
+}
+
+.formInfo{
+  font-family: OpenSans-SemiBold;
+  font-size: 16px;
+  margin-bottom:8px;
+  color:#000000;
+}
+
+.Optional{
+font-family:OpenSans-Regular;
+color:#9F9F9F;
+margin-right:2em;
+}
+
+.inputBox{
+  padding:8px;
+  border-radius:0.67em;
+  border: 1px solid;
+  font-size:1em;
+  -webkit-appearance: none;
+  background-color: #FFFFFF;
+}
+
+
+.Donebutton{
+  width:96%;
+  height:2.7em;
+  background-color:rgba(0, 91, 204, 0.2);
+  color:#005bcc;
+  border-radius: 0.67em;
+  border:none;
+  font-family: OpenSans-Bold;
+  font-size:16px;
+  -webkit-appearance: none;
+  margin-bottom: 16px;
+}
+button:disabled{
+  background-color: #ececec !important;
+  color:#7c7c7c;
+}
+.hide{
+  display:none;
+}
+
+
+.Sendbutton{
+  width:96%;
+  height:2.7em;
+  border-radius: 0.67em;
+  border:none;
+  background-color:rgba(0, 91, 204, 0.2);
+  color:#005bcc;
+  font-family: OpenSans-Bold;
+  font-size:1.5em;
+  -webkit-appearance: none;
+}
+
+.relative{
+  position: relative;
+}
+.pagecontainer{
+  margin: 0 auto;
+  position: relative;
+}
+@media only screen and (min-width: 768px) {
+  .pagecontainer{
+    max-width: 768px;
+  }
+  .middle{
+    max-width: 768px;
+  }
+}
+
+
+.TOS{
+  font-family: OpenSans-Regular;
+  font-size: 14px;
+  color:#9E9E9E;
+  text-align: center;
+  position:absolute;
+  bottom:16px;
+  right:0;
+  left:0;
+
+}
+
+.appnavn{
+  font-size: 6vw;
+}
+.logininput{
+  margin-top: 9em;
+}
+.loginside{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.mainPage{
+}
+.mainPagebutton{
+  flex-basis: 46%;
+  height: 150px;
+  background-color: #3F9CE2;
+  margin:2%;
+  border:none;
+  border-radius: 12px;
+}
+.optionContainer{
+  margin-top: 9em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-between;
+}
+.option{
+  color: white ;
+  font-size: 1.2em;
+  font-weight: bolder;
+}
+
+
+.header{
+  z-index: -1;
+  background-color: #225D89;
+  height:9%;
+  position:fixed;
+  top:0;
+  left:0;
+  right:0;
+  text-align: center;
+}
+.headerFont{
+  font-weight: bolder;
+  color:white;
+  font-size: 1.5em;
+  margin-top:6%;
+}
+.tilbageKnap{
+  color:white;
+  background-color: #3F9CE2;
+  border:none;
+  border-radius: 8px;
+  padding:8px;
 }
