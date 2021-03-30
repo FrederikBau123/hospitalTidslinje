@@ -4,6 +4,7 @@ import './index.css';
 import StartForm from './StartForm';
 import LoginPage from './LoginPage'
 import TimelineCreation from './TimelineCreation'
+import hospitalLogo from './images/hospitalLogo.svg'
 
 
 class LoginControl extends React.Component {
@@ -43,6 +44,7 @@ class LoginControl extends React.Component {
       return(
         <div className="pagecontainer">
           <TimelineCreation isLoggedIn={isLoggedIn} handleLogoutClick={this.handleLogoutClick} completeState={completeState} handleClick={this.handleDone.bind(this)} />
+          <img className="hospitalLogo" src={hospitalLogo} />
         </div>
       );
 
@@ -51,6 +53,7 @@ class LoginControl extends React.Component {
     return(
       <div >
         <StartForm handleLoginClick={this.handleLoginClick}/>
+        <img className="hospitalLogo" src={hospitalLogo} />
       </div>
     );
 

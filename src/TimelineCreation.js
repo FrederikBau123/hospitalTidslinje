@@ -92,7 +92,6 @@ export default function TimelineCreation ({isLoggedIn, completeState, handleClic
             </div>
           </button>
         </div>
-        <img className="hospitalLogo" src={hospitalLogo} />
       </div>
     )
   }

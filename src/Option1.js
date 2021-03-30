@@ -9,7 +9,6 @@ export default function Option1(){
           Min Bruger
         </div>
       </div>
-      <img className="hospitalLogo" src={hospitalLogo} />
     </div>
   )
 }

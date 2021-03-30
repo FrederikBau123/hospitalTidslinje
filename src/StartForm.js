@@ -37,7 +37,6 @@ function StartForm({children, handleLoginClick}) {
         Log Ind
       </button>
       </div>
-      <img className="hospitalLogo" src={hospitalLogo} />
     </div>
   )
 }

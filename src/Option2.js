@@ -59,7 +59,6 @@ export default function Option2(){
           </div>
         </div>
       </div>
-      <img className="hospitalLogo" src={hospitalLogo} />
     </div>
   )
 }

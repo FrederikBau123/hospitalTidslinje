@@ -10,7 +10,6 @@ export default function Option4(){
           Min Tidslinje
         </div>
       </div>
-      <img className="hospitalLogo" src={hospitalLogo} />
     </div>
   )
 }

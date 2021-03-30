@@ -9,7 +9,6 @@ export default function Option3(){
           Operationen
         </div>
       </div>
-      <img className="hospitalLogo" src={hospitalLogo} />
     </div>
   )
 }
