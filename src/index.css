@@ -245,4 +245,7 @@ button:disabled{
   border:none;
   border-radius: 8px;
   padding:8px;
+  position:fixed;
+  top: 3%;
+  left: 3%;
 }
