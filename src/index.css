@@ -246,16 +246,14 @@ button:disabled{
 }
 .medicinType{
   flex-basis: 46%;
-  height: 150px;
   margin:2%;
-  border:1px solid;
+  border:3px solid #225D89;
   border-radius: 12px;
   font-size: 1.2em;
   font-weight: bold;
-  padding:8px;
+  padding:16px;
 }
 .medicinInfo{
   font-size: 0.7em;
   font-weight:normal;
-  line-height: 24px;
 }

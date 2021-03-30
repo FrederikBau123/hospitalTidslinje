@@ -12,29 +12,41 @@ export default function Option2(){
         <div className="medicinType">
         Præparater
           <div className="medicinInfo">
-            Livslangt (Immunundertrykkende)
-            <br/>
-            Adport dosis varierer og skal skiftes, gives 2 gange dagligt
-            <br/>
-            Advagraf (det samme indholdsstof som ovenfor tacrolimus) dosis varierer gives 1 x dagligt
-            <br/>
-            Cellcept (mycofenolatmoffetil)/ Myfortic gives 2 x dgl
-            <br/>
-            Udtrappes 1 år
-            <br/>
-            Prednisolon gives 1 x dgl
+            <div>
+              Livslangt (Immunundertrykkende)
+            </div>
+            <div>
+              Adport dosis varierer og skal skiftes, gives 2 gange dagligt
+            </div>
+            <div>
+              Advagraf (det samme indholdsstof som ovenfor tacrolimus) dosis varierer gives 1 x dagligt
+            </div>
+            <div>
+              Cellcept (mycofenolatmoffetil)/ Myfortic gives 2 x dgl
+            </div>
+            <div>
+              Udtrappes 1 år
+            </div>
+            <div>
+              Prednisolon gives 1 x dgl
+            </div>
           </div>
         </div>
         <div className="medicinType">
         Kost Tilskud
           <div className="medicinInfo">
-          Livslangt
-          <br/>
-          Multivitamin
-          <br/>
-          Unikalk 1 tbl x2 (kalktilskud)
-          <br/>
-          Alendronat 1 x ugentligt
+            <div>
+              Livslangt
+            </div>
+            <div>
+              Multivitamin
+            </div>
+            <div>
+              Unikalk 1 tbl x2 (kalktilskud)
+            </div>
+            <div>
+              Alendronat 1 x ugentligt
+            </div>
           </div>
         </div>
         <div className="medicinType">

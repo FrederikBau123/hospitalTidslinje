@@ -22,7 +22,12 @@ class LoginControl extends React.Component {
   }
 
   handleLogoutClick() {
-    this.setState({isLoggedIn: false})
+
+    var confirmLogout = window.confirm('Er du sikker på at du vil logge ud?')
+    if (confirmLogout) {
+      this.setState({isLoggedIn: false})
+    }
+
   }
 
   handleDone(){
