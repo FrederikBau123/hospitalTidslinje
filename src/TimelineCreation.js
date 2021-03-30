@@ -7,6 +7,7 @@ import kalender from './images/kalender.png'
 import piller from './images/piller.png'
 import surgery from './images/surgery.png'
 import user from './images/user.png'
+import hospitalLogo from './images/hospitalLogo.svg'
 
 export default function TimelineCreation ({isLoggedIn, completeState, handleClick, handleLogoutClick}) {
   const [state, setState] = useState({})
@@ -91,7 +92,7 @@ export default function TimelineCreation ({isLoggedIn, completeState, handleClic
             </div>
           </button>
         </div>
-
+        <img className="hospitalLogo" src={hospitalLogo} />
       </div>
     )
   }

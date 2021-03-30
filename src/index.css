@@ -257,3 +257,10 @@ button:disabled{
   font-size: 0.7em;
   font-weight:normal;
 }
+
+.hospitalLogo{
+  width:80%;
+  position: fixed;
+  margin:2%;
+  bottom:0%;
+}

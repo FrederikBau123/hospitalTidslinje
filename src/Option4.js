@@ -1,4 +1,6 @@
 import React from 'react'
+import hospitalLogo from './images/hospitalLogo.svg'
+
 
 export default function Option4(){
   return(
@@ -8,6 +10,7 @@ export default function Option4(){
           Min Tidslinje
         </div>
       </div>
+      <img className="hospitalLogo" src={hospitalLogo} />
     </div>
   )
 }

@@ -1,6 +1,8 @@
 import React, { useState, useRef, useEffect } from 'react'
 import FormElement from './FormElement'
 import { useForm} from "react-hook-form"
+import hospitalLogo from './images/hospitalLogo.svg'
+
 
 function StartForm({children, handleLoginClick}) {
   const [loginValid, setloginValid] = useState(false)
@@ -40,6 +42,7 @@ function StartForm({children, handleLoginClick}) {
         Log Ind
       </button>
       </div>
+      <img className="hospitalLogo" src={hospitalLogo} />
     </div>
   )
 }

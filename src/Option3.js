@@ -1,4 +1,5 @@
 import React from 'react'
+import hospitalLogo from './images/hospitalLogo.svg'
 
 export default function Option3(){
   return(
@@ -8,6 +9,7 @@ export default function Option3(){
           Operationen
         </div>
       </div>
+      <img className="hospitalLogo" src={hospitalLogo} />
     </div>
   )
 }
