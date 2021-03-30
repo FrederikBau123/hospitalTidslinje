@@ -8,7 +8,6 @@
 .margintop{
   margin-top:  1em !important;
 }
-
 .nomargintop{
   margin-top:0 !important;
 }
@@ -238,4 +237,25 @@ button:disabled{
   display:flex;
   flex-direction: column;
   height:100px;
+}
+
+.medicin{
+  display:flex;
+  flex-direction: column;
+  margin-top: 9em;
+}
+.medicinType{
+  flex-basis: 46%;
+  height: 150px;
+  margin:2%;
+  border:1px solid;
+  border-radius: 12px;
+  font-size: 1.2em;
+  font-weight: bold;
+  padding:8px;
+}
+.medicinInfo{
+  font-size: 0.7em;
+  font-weight:normal;
+  line-height: 24px;
 }
