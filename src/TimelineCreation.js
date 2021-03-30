@@ -3,7 +3,9 @@ import Option1 from './Option1'
 import Option2 from './Option2'
 import Option3 from './Option3'
 import Option4 from './Option4'
-
+import kalender from './images/kalender.png'
+import piller from './images/piller.png'
+import surgery from './images/surgery.png'
 
 
 export default function TimelineCreation ({isLoggedIn, completeState, handleClick, handleLogoutClick}) {
@@ -52,18 +54,21 @@ export default function TimelineCreation ({isLoggedIn, completeState, handleClic
           </button>
 
           <button className="mainPagebutton" onClick={handleOption2}>
+            <img src={piller}/>
             <div className="option">
               Medicin Guide
             </div>
           </button>
 
           <button className="mainPagebutton" onClick={handleOption3}>
+            <img src={surgery}/>
             <div className="option">
               Læs Om Operationen
             </div>
           </button>
 
           <button className="mainPagebutton" onClick={handleOption4}>
+            <img src={kalender}/>
             <div className="option">
               Min Tidslinje
             </div>
