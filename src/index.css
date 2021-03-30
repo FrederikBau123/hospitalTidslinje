@@ -38,6 +38,9 @@ input, select, textarea, button{
 .flex{
   display:flex;
 }
+.flex-direction-column{
+  flex-direction: column;
+}
 .inline{
   display: inline;
 }
@@ -89,31 +92,11 @@ margin-top:8px;
 .formElements.error select {
   border: 1px solid red;
 }
-.formLabels{
-  font-family: OpenSans-Regular;
-  font-size:14px;
-  color:#000000;
-}
-.formComplete{
-  margin-top:1em;
-  margin-left: 4%;
-}
-.formCompleteContainer{
-  width:100%;
-  margin-top:8px;
-}
 
-.formInfo{
-  font-family: OpenSans-SemiBold;
-  font-size: 16px;
-  margin-bottom:8px;
-  color:#000000;
-}
-
-.Optional{
-font-family:OpenSans-Regular;
-color:#9F9F9F;
-margin-right:2em;
+.logos{
+  width:64px;
+  height:64px;
+  margin-bottom:9%;
 }
 
 .inputBox{
@@ -219,6 +202,7 @@ button:disabled{
 .option{
   color: white ;
   font-size: 1.2em;
+  display: inline;
   font-weight: bolder;
 }
 
@@ -248,4 +232,10 @@ button:disabled{
   position:fixed;
   top: 3%;
   left: 3%;
+}
+
+.optionWrapper{
+  display:flex;
+  flex-direction: column;
+  height:100px;
 }

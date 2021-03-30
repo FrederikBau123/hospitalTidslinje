@@ -6,7 +6,7 @@ import Option4 from './Option4'
 import kalender from './images/kalender.png'
 import piller from './images/piller.png'
 import surgery from './images/surgery.png'
-
+import user from './images/user.png'
 
 export default function TimelineCreation ({isLoggedIn, completeState, handleClick, handleLogoutClick}) {
   const [state, setState] = useState({})
@@ -48,29 +48,46 @@ export default function TimelineCreation ({isLoggedIn, completeState, handleClic
         </div>
         <div className="optionContainer">
           <button className="mainPagebutton" onClick={handleOption1}>
-            <div className="option">
-              Min Bruger
+            <div className="optionWrapper">
+              <div>
+                <img className="logos" src={user}/>
+              </div>
+              <div className="option">
+                Min Bruger
+              </div>
             </div>
           </button>
 
           <button className="mainPagebutton" onClick={handleOption2}>
-            <img src={piller}/>
-            <div className="option">
-              Medicin Guide
+            <div className="optionWrapper">
+              <div>
+                <img className="logos" src={piller}/>
+              </div>
+              <div className="option">
+                Medicin Guide
+              </div>
             </div>
           </button>
 
           <button className="mainPagebutton" onClick={handleOption3}>
-            <img src={surgery}/>
-            <div className="option">
-              Læs Om Operationen
+            <div className="optionWrapper">
+              <div>
+                <img className="logos" src={surgery}/>
+              </div>
+              <div className="option">
+                Læs Om Operationen
+              </div>
             </div>
           </button>
 
           <button className="mainPagebutton" onClick={handleOption4}>
-            <img src={kalender}/>
-            <div className="option">
-              Min Tidslinje
+            <div className="optionWrapper">
+              <div>
+                <img className="logos" src={kalender}/>
+              </div>
+              <div className="option">
+                Min Tidslinje
+              </div>
             </div>
           </button>
         </div>
