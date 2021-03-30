@@ -33,11 +33,6 @@ function StartForm({children, handleLoginClick}) {
         {errors.adgangskode && errors.adgangskode.type === 'required' && <span className="error"> skriv din adganskode </span>}
       </FormElement>
       </div>
-      <div className="TOS">
-      <span> By using this service, you agree </span>
-      <br/>
-      <span> to our <u>cookie policy</u> and <u>terms of service</u> </span>
-      </div>
       <button disabled={isValid ? false : true} className="login" onClick={handleLoginClick}>
         Log Ind
       </button>
