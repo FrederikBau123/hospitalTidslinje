@@ -242,7 +242,7 @@ button:disabled{
 .medicin{
   display:flex;
   flex-direction: column;
-  margin-top: 9em;
+  margin-top: 5em;
 }
 .medicinType{
   flex-basis: 46%;
@@ -259,6 +259,7 @@ button:disabled{
 }
 
 .hospitalLogo{
+  z-index: -1;
   width:80%;
   position: fixed;
   margin:2%;

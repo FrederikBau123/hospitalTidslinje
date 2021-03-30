@@ -58,7 +58,6 @@ export default function Option2(){
             Bactrim gives 1 gang dgl. I 6 måneder
           </div>
         </div>
-
       </div>
       <img className="hospitalLogo" src={hospitalLogo} />
     </div>
