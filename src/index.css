@@ -1,22 +1,5 @@
 
-.nomargin{
-  margin:0 !important;
-}
-.marginleft{
-  margin-left: 1.8em;
-}
-.margintop{
-  margin-top:  1em !important;
-}
-.nomargintop{
-  margin-top:0 !important;
-}
-.marginbottom{
-  margin-bottom:2em;
-}
-#marginformbottom{
-  padding-bottom:1em;
-}
+
 
 ::-webkit-scrollbar {
   display: none;
@@ -95,7 +78,6 @@ margin-top:8px;
 .logos{
   width:64px;
   height:64px;
-  margin-bottom:9%;
 }
 
 .inputBox{
@@ -144,15 +126,15 @@ button:disabled{
 .relative{
   position: relative;
 }
-.pagecontainer{
+
+#root{
   margin: 0 auto;
-  position: relative;
 }
 @media only screen and (min-width: 768px) {
-  .pagecontainer{
+  #root{
     max-width: 768px;
   }
-  .middle{
+  .pagecontainer{
     max-width: 768px;
   }
 }
@@ -186,11 +168,11 @@ button:disabled{
 }
 .mainPagebutton{
   flex-basis: 46%;
-  height: 150px;
   background-color: #3F9CE2;
   margin:2%;
   border:none;
   border-radius: 12px;
+  padding:8px;
 }
 .optionContainer{
   margin-top: 9em;
@@ -236,7 +218,6 @@ button:disabled{
 .optionWrapper{
   display:flex;
   flex-direction: column;
-  height:100px;
 }
 
 .medicin{
@@ -264,4 +245,5 @@ button:disabled{
   position: fixed;
   margin:2%;
   bottom:0%;
+  max-width:600px;
 }

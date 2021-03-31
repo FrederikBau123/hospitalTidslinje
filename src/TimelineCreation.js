@@ -91,6 +91,18 @@ export default function TimelineCreation ({isLoggedIn, completeState, handleClic
               </div>
             </div>
           </button>
+
+          <button className="mainPagebutton" onClick={handleOption4}>
+            <div className="optionWrapper">
+              <div>
+                <img className="logos" src={piller}/>
+              </div>
+              <div className="option">
+                Gæt Pillen
+              </div>
+            </div>
+          </button>
+
         </div>
       </div>
     )
@@ -99,8 +111,8 @@ export default function TimelineCreation ({isLoggedIn, completeState, handleClic
   if(option1State === true){
     return(
       <div>
-      <button className="tilbageKnap" onClick={handleOption1}> Tilbage </button>
-      <Option1  />
+        <button className="tilbageKnap" onClick={handleOption1}> Tilbage </button>
+        <Option1  />
       </div>
     )
   }
@@ -108,8 +120,8 @@ export default function TimelineCreation ({isLoggedIn, completeState, handleClic
   if(option2State === true){
     return(
       <div>
-      <button className="tilbageKnap" onClick={handleOption2}> Tilbage </button>
-      <Option2  />
+        <button className="tilbageKnap" onClick={handleOption2}> Tilbage </button>
+        <Option2  />
       </div>
     )
   }
@@ -117,8 +129,8 @@ export default function TimelineCreation ({isLoggedIn, completeState, handleClic
   if(option3State === true){
     return(
       <div>
-      <button className="tilbageKnap" onClick={handleOption3}> Tilbage </button>
-      <Option3  />
+        <button className="tilbageKnap" onClick={handleOption3}> Tilbage </button>
+        <Option3  />
       </div>
     )
   }
@@ -126,8 +138,8 @@ export default function TimelineCreation ({isLoggedIn, completeState, handleClic
   if(option4State === true){
     return(
       <div>
-      <button className="tilbageKnap" onClick={handleOption4}> Tilbage </button>
-      <Option4 />
+        <button className="tilbageKnap" onClick={handleOption4}> Tilbage </button>
+        <Option4 />
       </div>
     )
   }

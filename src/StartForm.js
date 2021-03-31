@@ -1,7 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react'
 import FormElement from './FormElement'
 import { useForm} from "react-hook-form"
-import hospitalLogo from './images/hospitalLogo.svg'
 
 
 function StartForm({children, handleLoginClick}) {

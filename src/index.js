@@ -51,7 +51,7 @@ class LoginControl extends React.Component {
     }
 
     return(
-      <div >
+      <div className="pagecontainer" >
         <StartForm handleLoginClick={this.handleLoginClick}/>
         <img className="hospitalLogo" src={hospitalLogo} />
       </div>
