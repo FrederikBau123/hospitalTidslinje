@@ -3,6 +3,7 @@ import Option1 from './Option1'
 import Option2 from './Option2'
 import Option3 from './Option3'
 import Option4 from './Option4'
+import Option5 from './Option5'
 import kalender from './images/kalender.png'
 import piller from './images/piller.png'
 import surgery from './images/surgery.png'
@@ -16,7 +17,7 @@ export default function TimelineCreation ({isLoggedIn, completeState, handleClic
   const [option2State, setoption2State] = useState(false);
   const [option3State, setoption3State] = useState(false);
   const [option4State, setoption4State] = useState(false);
-
+  const [option5State, setoption5State] = useState(false);
 
   function handleOption1(){
     setoption1State(!option1State)
@@ -34,7 +35,10 @@ export default function TimelineCreation ({isLoggedIn, completeState, handleClic
     setoption4State(!option4State)
     setmainPageState(!mainPageState)
   }
-
+  function handleOption5(){
+    setoption5State(!option4State)
+    setmainPageState(!mainPageState)
+  }
 
 
   if(mainPageState === true){
@@ -92,7 +96,7 @@ export default function TimelineCreation ({isLoggedIn, completeState, handleClic
             </div>
           </button>
 
-          <button className="mainPagebutton" onClick={handleOption4}>
+          <button className="mainPagebutton" onClick={handleOption5}>
             <div className="optionWrapper">
               <div>
                 <img className="logos" src={piller}/>
@@ -140,6 +144,14 @@ export default function TimelineCreation ({isLoggedIn, completeState, handleClic
       <div>
         <button className="tilbageKnap" onClick={handleOption4}> Tilbage </button>
         <Option4 />
+      </div>
+    )
+  }
+  if(option5State === true){
+    return(
+      <div>
+        <button className="tilbageKnap" onClick={handleOption5}> Tilbage </button>
+        <Option5 />
       </div>
     )
   }
