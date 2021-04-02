@@ -53,7 +53,7 @@ function startSpil(){
       <div>
         <div className="header">
           <div className="headerFont">
-            Min Tidslinje
+            Gæt Pillen
           </div>
         </div>
         <button className="startSpil" onClick={startSpil}> Slut Spil</button>

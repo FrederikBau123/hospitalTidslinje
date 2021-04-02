@@ -252,6 +252,10 @@ button:disabled{
   margin-top: 9em;
   width:15%;
   height:50px;
+  color:white;
+  background-color: #225D89;
+  border:none;
+  border-radius: 8px;
 }
 .spilContainer{
   display: flex;
