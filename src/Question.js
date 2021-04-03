@@ -23,10 +23,10 @@ console.log(arrayToRandom)
 
 function checkAnswer(answer){
   if(answer === numberCor){
-    alert("YEAAAHHH")
+    alert("CORRECT!")
   }
   else{
-    alert("HELL NAH")
+    alert("WRONG")
   }
 }
 
